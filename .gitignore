@@ -1,0 +1,17 @@
+# 忽略所有 .log 文件
+*.log
+
+# 忽略 node_modules 文件夹
+node_modules/
+
+# 忽略特定文件
+config/settings.json
+
+# 忽略所有以 temp 开头的文件
+temp*
+
+# 忽略特定目录及其内容
+build/
+
+# 不忽略子目录中的特定文件
+!build/special.txt
